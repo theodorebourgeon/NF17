@@ -1,0 +1,61 @@
+
+body
+{
+	background-color: #bcdcff ; /* Le fond de la page sera noir */
+	color: black	; /* Le texte de la page sera blanc */
+
+}
+
+*
+{
+	font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;
+}
+
+
+h1
+{
+	font-size: 2.8em;
+	text-align: center;
+   	background-color: #a5b8ce ;
+	width : 100%
+
+}
+
+p
+{
+	font-size: 1em;
+	width: 350px; /* On a indiqué une largeur (obligatoire) */
+        border: 1px solid black;
+        text-align: center;
+        padding: 12px;
+        margin: auto;
+
+}
+
+#menu
+{
+	display: flex;
+	justify-content: space-around;
+	background-color: #7cbaff ;
+
+
+}
+
+.element1
+{
+
+}
+
+
+
+a /* Liens par défaut (non survolés) */
+{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+	font-weight: bold;
+	color: black;
+}
